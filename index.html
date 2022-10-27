@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cuisines and Recipes</title>
+  <!--The CSS bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <style>
+
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head> 
+  
+<body style="background-image: url('./images/lights.jpg');background-size:cover">
+<div class="container">
+  <div class="row text-center">
+    <h1>
+    Feeling Hungry?
+    </h1> 
+    <h2>Choose ANY Cusine and we can suggest some delicious meals</h2>
+    <button class="btn btn-primary" id="get_ingr"><i style="font-size:35px">Choose Cuisine</i></button>
+
+  
+</div>
+<!-- //<div class="row"> -->
+      
+  <div id="ingredients" class="row results"> </div>
+  <div id="recipes" class="row results"> </div>
+  <div id="details" class="row results"> </div>
+  
+  <p id="mealInstructions" class="mt-5"> </p>
+  <button class="btn btn-primary" style = "display: none; position:fixed; right:100px; font-size:35px;" id="cocktails" >Get Cocktails List</button>
+  <div id="cocktails_list" class="row results"> </div>
+<!-- 
+</div> -->
+  <!--Linking the javascript code-->
+  <script src="script.js"></script>
+</body>
+</html
+>
